@@ -10,7 +10,7 @@
     -
       ec2_vpc_net:
         cidr_block: "{{vpcCidr}}"
-        dns_hostname: true
+        dns_hostnames: true
         dns_support: true
         name: "{{vpc_name}}"
         state: "{{state}}"
