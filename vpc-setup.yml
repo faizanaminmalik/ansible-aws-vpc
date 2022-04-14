@@ -12,6 +12,7 @@
         cidr_block: "{{vpcCidr}}"
         dns_hostnames: true
         dns_support: true
+        region: "{{ region }}"
         name: "{{vpc_name}}"
         state: "{{state}}"
         tenancy: default
