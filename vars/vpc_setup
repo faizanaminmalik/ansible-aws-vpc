@@ -1,7 +1,7 @@
 vpc_name: "vprofile-vpc"
 
 #vpc range
-vpcCidr: ''172.20.0.0/16'
+vpcCidr: '172.20.0.0/16'
 
 #subnet range
 
